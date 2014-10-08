@@ -1,0 +1,213 @@
+Sample Console Output from 7 Oct 2014
+
+http://dados.gov.br/api/3/action/status_show 200 Apache/2.2.15 (CentOS)  CKAN: 2.2
+FAIL#http://govdata.de/api/3/action/status_show 404 unknown
+FAIL#http://data.overheid.nl/api/3/action/status_show 404 Apache
+FAIL#http://data.norge.no/api/3/action/status_show 404 Apache/2.2.22 (Ubuntu)
+http://data.gov.sk/api/3/action/status_show 200 unknown  CKAN: 2.2
+http://data.gov.uk/api/3/action/status_show 200 nginx/1.6.0  CKAN: 2.2b
+https://catalogodatos.gub.uy//api/3/action/status_show 200 Apache/2.2.15 (CentOS)  CKAN: 2.3a
+FAIL#http://data.gov/api/3/action/status_show 404 Apache
+http://opingogn.is//api/3/action/status_show 200 Apache/2.2.22  CKAN: 2.2
+FAIL#http://data.buenosaires.gob.ar//api/3/action/status_show 403 unknown
+FAIL#http://data.nsw.gov.au/api/3/action/status_show 404 nginx/1.0.15
+http://data.qld.gov.au/api/3/action/status_show 200 cloudflare-nginx  CKAN: 2.0.2
+http://data.gov.au/api/3/action/status_show 200 nginx/1.6.1  CKAN: 2.2
+http://data.sa.gov.au//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.1
+FAIL#http://data.ottawa.ca//api/3/action/status_show 400 Apache/2.2.15 (CentOS)
+http://www.hri.fi/api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1.1
+FAIL#http://daten.berlin.de/api/3/action/status_show 404 nginx
+FAIL#http://daten.hamburg.de//api/3/action/status_show 200 unknown
+FAIL#http://www.daten.rlp.de//api/3/action/status_show 400 Apache
+FAIL#http://www.opendata-hro.de//api/3/action/status_show 400 Apache/2.2.12 (Linux/SUSE)
+FAIL#http://opendata.comune.bari.it//api/3/action/status_show 400 Oracle Application Server/10.1.2.3.0 nginx/1.4.4 OracleAS-Web-Cache-10g/10.1.2.3.0 (N;ecid=381492661665,0)
+FAIL#http://www.opendata.provincia.roma.it//api/3/action/status_show 400 Apache/2.2.14 (Ubuntu)
+http://dati.toscana.it//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+http://opendata.aragon.es//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1.1
+http://datagm.org.uk/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.2
+FAIL#http://data.denvergov.org//api/3/action/status_show 404 Microsoft-IIS/7.5
+FAIL#http://data.cityofsantacruz.com//api/3/action/status_show 400 nginx/0.7.65
+FAIL#http://data.lexingtonky.gov//api/3/action/status_show 400 Apache/2.2.14 (Ubuntu)
+HTTPConnectionPool(host='dadosabertos.senado.gov.br', port=80): Max retries exceeded with url: //api/3/action/status_show (Caused by <class 'socket.error'>: [Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+FAIL#http://open-data.europa.eu//api/3/action/status_show 404 Europa
+http://publicdata.eu/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2.1b
+FAIL#http://datameti.go.jp/data//api/3/action/status_show 500 Apache/2.2.15 (CentOS)
+FAIL#http://healthdata.gov//api/3/action/status_show 404 Apache
+http://iatiregistry.org/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.2b
+http://www.odaa.dk//api/3/action/status_show 200 Apache  CKAN: 2.1.2
+FAIL#http://data.linz.gv.at//api/3/action/status_show 404 OpenCms/8.0.2
+FAIL#http://data.graz.gv.at//api/3/action/status_show 404 Apache/2.2.22 (Ubuntu)
+http://datahub.io//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.1b
+http://offenedaten.de//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.2
+FAIL#http://opencolorado.org//api/3/action/status_show 404 Apache
+FAIL#http://www.opendatahub.it//api/3/action/status_show 400 Apache/2.2.22 (Ubuntu)
+FAIL#http://open-data.okfn.gr//api/3/action/status_show 404 Apache/2.2.16 (Ubuntu)
+http://www.nosdonnees.fr//api/3/action/status_show 200 Apache/2.2.16  CKAN: 2.3a
+http://hubofdata.ru//api/3/action/status_show 200 nginx/1.4.1  CKAN: 2.2a
+FAIL#http://datacatalogs.org//api/3/action/status_show 404 Cowboy
+http://africaopendata.org//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1.1
+http://data.openva.com//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1a
+http://data.codeforhouston.com//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1a
+http://datos.codeandomexico.org//api/3/action/status_show 200 Apache  CKAN: 2.2.1b
+http://opendatadc.org//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1a
+FAIL#http://datos.gob.mx//api/3/action/status_show 404 GitHub.com
+FAIL#http://catalogue.datalocale.fr/api/3/action/status_show 400 nginx/1.2.4
+FAIL#http://data.gc.ca/api/3/action/status_show 404 Apache/2.2.15
+FAIL#http://opendatacanarias.es//api/3/action/status_show 404 nginx/1.1.19
+http://data.edostate.gov.ng//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.4
+FAIL#http://datospublicos.gob.ar//api/3/action/status_show 404 Apache/2.2.22 (Debian)
+http://dartportal.leeds.ac.uk//api/3/action/status_show 200 Apache/2.2.15 (CentOS)  CKAN: 2.1
+http://bermuda.io//api/3/action/status_show 200 cloudflare-nginx  CKAN: 2.0
+http://opendata.admin.ch//api/3/action/status_show 200 Apache  CKAN: 2.0.2
+http://datosabiertos.malaga.eu//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu), cacheinter@CEMI  CKAN: 2.2
+http://data.kk.dk//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.1
+http://opendata.cmt.es//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.0
+FAIL#http://dati.gov.it//api/3/action/status_show 403 Apache
+http://donnees.ville.montreal.qc.ca//api/3/action/status_show 200 nginx  CKAN: 2.2
+http://data.glasgow.gov.uk//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1a
+http://dados.recife.pe.gov.br//api/3/action/status_show 200 Apache/2.2.15 (CentOS)  CKAN: 2.0
+HTTPConnectionPool(host='opendata.awt.be', port=80): Max retries exceeded with url: //api/3/action/status_show (Caused by <class 'socket.error'>: [Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+http://opendata.hu//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0
+http://dati.trentino.it//api/3/action/status_show 200 Apache  CKAN: 2.2
+http://data.gov.ro//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.2
+FAIL#http://www.openumea.se//api/3/action/status_show 404 Apache/2.4.7 (Ubuntu)
+http://data.surrey.ca//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+http://rotterdamopendata.nl//api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1.1
+http://opendata.caceres.es//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.3
+http://data.kk.dk//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.1
+http://www.odaa.dk//api/3/action/status_show 200 Apache  CKAN: 2.1.2
+FAIL#https://data.noaa.gov/dataset/api/3/action/status_show 404 Apache/2.2.3 (CentOS)
+FAIL#http://data.ug//api/3/action/status_show 404 Apache/2.2.22 (Ubuntu)
+http://opendata.caceres.es//api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.3
+http://datapoa.com.br//api/3/action/status_show 200 Apache/2.2.22 (Debian)  CKAN: 2.1
+FAIL#http://dados.rs.gov.br//api/3/action/status_show 404 nginx/1.2.7
+http://data.rio.rj.gov.br//api/3/action/status_show 200 Apache/2.2.15 (Red Hat)  CKAN: 2.1
+http://opendatagortynia.gr//api/3/action/status_show 200 PasteWSGIServer/0.5 Python/2.7.5  CKAN: 2.1
+http://opendatagortynia.gr//api/3/action/status_show 200 PasteWSGIServer/0.5 Python/2.7.5  CKAN: 2.1
+http://donnees.ville.sherbrooke.qc.ca/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.1.1
+http://portal.openbelgium.be/api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.2b
+http://datosabiertos.ec/api/3/action/status_show 200 nginx/1.4.4  CKAN: 2.1
+http://www.offene-daten.me/api/3/action/status_show 200 Apache  CKAN: 2.2
+http://udct-data.aigid.jp/api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.1
+http://data.grcity.us/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.1
+http://cities.opendatahub.gr/api/3/action/status_show 200 nginx/1.2.6 (Ubuntu)  CKAN: 2.0.2
+FAIL#http://opendatahub.gr/api/3/action/status_show 500 Apache/2.2.22 (Ubuntu)
+http://www.civicdata.io/api/3/action/status_show 200 Apache/2.2.22 (Ubuntu)  CKAN: 2.2a
+http://ckan.gsi.go.jp/api/3/action/status_show 200 Apache  CKAN: 2.1.1
+http://oppnadata.se/api/3/action/status_show 200 PasteWSGIServer/0.5 Python/2.7.3  CKAN: 2.0.2
+http://data.hdx.rwlabs.org/api/3/action/status_show 200 nginx  CKAN: 2.2
+http://datamx.io/api/3/action/status_show 200 Apache  CKAN: 2.2.1b
+http://dataforjapan.org/api/3/action/status_show 200 nginx/1.4.6 (Ubuntu)  CKAN: 2.2
+HTTPConnectionPool(host='data.yokohamaopendata.jp', port=80): Max retries exceeded with url: /api/3/action/status_show (Caused by <class 'socket.error'>: [Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+FAIL#http://datameti.go.jp/api/3/action/status_show 404 Apache/2.2.15 (CentOS)
+FAIL#http://www.data.go.jp/api/3/action/status_show 200 Apache
+FAIL#http://ckan.sabae.jrrk.org/api/3/action/status_show 502 nginx
+http://opendata.lisra.jp/api/3/action/status_show 200 Apache/2.2.15 (CentOS)  CKAN: 2.0.2
+FAIL#http://www.amsterdamopendata.nl/api/3/action/status_show 404 Apache
+http://gisdata.mn.gov/api/3/action/status_show 200 Apache/2.2.15 (Red Hat)  CKAN: 2.1.1
+http://data.salzburgerland.com/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+http://geothermaldata.org/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.4
+http://annuario.comune.fi.it/api/3/action/status_show 200 PasteWSGIServer/0.5 Python/2.6.6  CKAN: 2.0
+http://www.datos.misiones.gov.ar/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.0.4
+FAIL#https://edx.netl.doe.gov/api/3/action/status_show 400 Apache/2.2.15 (Red Hat)
+http://data.bris.ac.uk/data/api/3/action/status_show 200 Apache/2.2.22 (Debian)  CKAN: 2.0
+HTTPConnectionPool(host='drdsi.jrc.ec.europa.eu', port=80): Max retries exceeded with url: /api/3/action/status_show (Caused by <class 'socket.error'>: [Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+http://gong.io/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+http://opendatareno.org/api/3/action/status_show 200 Apache/2.4.7 (Ubuntu)  CKAN: 2.2
+http://data.gov.ie/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+http://data.tainan.gov.tw/api/3/action/status_show 200 nginx/1.1.19  CKAN: 2.2
+
+
+{u'2.0': [u'http://bermuda.io/', u'http://opendata.cmt.es/', u'http://dados.recife.pe.gov.br/', u'http://opendata.hu/', u'http://annuario.comune.fi.it', u'http://data.bris.ac.uk/data'], u'2.0.4': [u'http://data.edostate.gov.ng/', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar'], u'2.0.3': [u'http://opendata.caceres.es/', u'http://opendata.caceres.es/'], u'2.0.2': [u'http://data.qld.gov.au', u'http://datagm.org.uk', u'http://offenedaten.de/', u'http://opendata.admin.ch/', u'http://data.gov.ro/', u'http://cities.opendatahub.gr', u'http://oppnadata.se', u'http://opendata.lisra.jp'], u'2.0.1': [u'http://data.grcity.us'], u'2.2b': [u'http://data.gov.uk', u'http://portal.openbelgium.be'], u'2.2a': [u'http://hubofdata.ru/', u'http://www.civicdata.io'], u'2.1a': [u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://opendatadc.org/', u'http://data.glasgow.gov.uk/'], u'2.1.2b': [u'http://iatiregistry.org'], u'2.3a': [u'https://catalogodatos.gub.uy/', u'http://www.nosdonnees.fr/'], u'2.2.1b': [u'http://publicdata.eu', u'http://datos.codeandomexico.org/', u'http://datamx.io'], u'2.1.2': [u'http://www.odaa.dk/', u'http://www.odaa.dk/'], u'2.2': [u'http://dados.gov.br', u'http://data.gov.sk', u'http://opingogn.is/', u'http://data.gov.au', u'http://dati.toscana.it/', u'http://datosabiertos.malaga.eu/', u'http://donnees.ville.montreal.qc.ca/', u'http://dati.trentino.it/', u'http://data.surrey.ca/', u'http://www.offene-daten.me', u'http://data.hdx.rwlabs.org', u'http://dataforjapan.org', u'http://data.salzburgerland.com', u'http://gong.io', u'http://opendatareno.org', u'http://data.gov.ie', u'http://data.tainan.gov.tw'], u'2.1': [u'http://dartportal.leeds.ac.uk/', u'http://datapoa.com.br/', u'http://data.rio.rj.gov.br/', u'http://opendatagortynia.gr/', None, u'http://datosabiertos.ec', u'http://udct-data.aigid.jp'], u'2.1.1': [u'http://data.sa.gov.au/', u'http://www.hri.fi', u'http://opendata.aragon.es/', u'http://africaopendata.org/', u'http://data.kk.dk/', u'http://rotterdamopendata.nl/', u'http://data.kk.dk/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://ckan.gsi.go.jp', u'http://gisdata.mn.gov'], u'2.1.1b': [u'http://datahub.io/']}
+6 2.0 [u'http://bermuda.io/', u'http://opendata.cmt.es/', u'http://dados.recife.pe.gov.br/', u'http://opendata.hu/', u'http://annuario.comune.fi.it', u'http://data.bris.ac.uk/data']
+1 2.0.1 [u'http://data.grcity.us']
+8 2.0.2 [u'http://data.qld.gov.au', u'http://datagm.org.uk', u'http://offenedaten.de/', u'http://opendata.admin.ch/', u'http://data.gov.ro/', u'http://cities.opendatahub.gr', u'http://oppnadata.se', u'http://opendata.lisra.jp']
+2 2.0.3 [u'http://opendata.caceres.es/', u'http://opendata.caceres.es/']
+3 2.0.4 [u'http://data.edostate.gov.ng/', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar']
+7 2.1 [u'http://dartportal.leeds.ac.uk/', u'http://datapoa.com.br/', u'http://data.rio.rj.gov.br/', u'http://opendatagortynia.gr/', None, u'http://datosabiertos.ec', u'http://udct-data.aigid.jp']
+10 2.1.1 [u'http://data.sa.gov.au/', u'http://www.hri.fi', u'http://opendata.aragon.es/', u'http://africaopendata.org/', u'http://data.kk.dk/', u'http://rotterdamopendata.nl/', u'http://data.kk.dk/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://ckan.gsi.go.jp', u'http://gisdata.mn.gov']
+1 2.1.1b [u'http://datahub.io/']
+2 2.1.2 [u'http://www.odaa.dk/', u'http://www.odaa.dk/']
+1 2.1.2b [u'http://iatiregistry.org']
+4 2.1a [u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://opendatadc.org/', u'http://data.glasgow.gov.uk/']
+17 2.2 [u'http://dados.gov.br', u'http://data.gov.sk', u'http://opingogn.is/', u'http://data.gov.au', u'http://dati.toscana.it/', u'http://datosabiertos.malaga.eu/', u'http://donnees.ville.montreal.qc.ca/', u'http://dati.trentino.it/', u'http://data.surrey.ca/', u'http://www.offene-daten.me', u'http://data.hdx.rwlabs.org', u'http://dataforjapan.org', u'http://data.salzburgerland.com', u'http://gong.io', u'http://opendatareno.org', u'http://data.gov.ie', u'http://data.tainan.gov.tw']
+3 2.2.1b [u'http://publicdata.eu', u'http://datos.codeandomexico.org/', u'http://datamx.io']
+2 2.2a [u'http://hubofdata.ru/', u'http://www.civicdata.io']
+2 2.2b [u'http://data.gov.uk', u'http://portal.openbelgium.be']
+2 2.3a [u'https://catalogodatos.gub.uy/', u'http://www.nosdonnees.fr/']
+
+
+{'nginx/1.6.1': [u'http://data.gov.au'], 'nginx/1.6.0': [u'http://data.gov.uk'], 'Apache/2.2.16': [u'http://www.nosdonnees.fr/'], 'unknown': [u'http://data.gov.sk'], 'nginx/1.2.6 (Ubuntu)': [u'http://cities.opendatahub.gr'], 'nginx/1.4.6 (Ubuntu)': [u'http://dataforjapan.org'], 'Apache/2.2.15 (Red Hat)': [u'http://data.rio.rj.gov.br/', u'http://gisdata.mn.gov'], 'Apache': [u'http://www.odaa.dk/', u'http://datos.codeandomexico.org/', u'http://opendata.admin.ch/', u'http://dati.trentino.it/', u'http://www.odaa.dk/', u'http://www.offene-daten.me', u'http://ckan.gsi.go.jp', u'http://datamx.io'], 'cloudflare-nginx': [u'http://data.qld.gov.au', u'http://bermuda.io/'], 'Apache/2.2.22 (Ubuntu)': [u'http://www.hri.fi', u'http://opendata.aragon.es/', u'http://africaopendata.org/', u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://opendatadc.org/', u'http://opendata.cmt.es/', u'http://data.glasgow.gov.uk/', u'http://rotterdamopendata.nl/', u'http://portal.openbelgium.be', u'http://udct-data.aigid.jp', u'http://www.civicdata.io'], 'Apache/2.4.7 (Ubuntu)': [u'http://opendatareno.org'], 'Apache/2.2.22 (Ubuntu), cacheinter@CEMI': [u'http://datosabiertos.malaga.eu/'], 'Apache/2.2.22 (Debian)': [u'http://datapoa.com.br/', u'http://data.bris.ac.uk/data'], 'nginx': [u'http://donnees.ville.montreal.qc.ca/', u'http://data.hdx.rwlabs.org'], 'Apache/2.2.22': [u'http://opingogn.is/'], 'PasteWSGIServer/0.5 Python/2.6.6': [u'http://annuario.comune.fi.it'], 'PasteWSGIServer/0.5 Python/2.7.3': [u'http://oppnadata.se'], 'PasteWSGIServer/0.5 Python/2.7.5': [u'http://opendatagortynia.gr/', None], 'Apache/2.2.15 (CentOS)': [u'http://dados.gov.br', u'https://catalogodatos.gub.uy/', u'http://dartportal.leeds.ac.uk/', u'http://dados.recife.pe.gov.br/', u'http://opendata.lisra.jp'], 'nginx/1.1.19': [u'http://data.sa.gov.au/', u'http://dati.toscana.it/', u'http://datagm.org.uk', u'http://publicdata.eu', u'http://iatiregistry.org', u'http://datahub.io/', u'http://offenedaten.de/', u'http://data.edostate.gov.ng/', u'http://data.kk.dk/', u'http://opendata.hu/', u'http://data.gov.ro/', u'http://data.surrey.ca/', u'http://opendata.caceres.es/', u'http://data.kk.dk/', u'http://opendata.caceres.es/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://data.grcity.us', u'http://data.salzburgerland.com', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar', u'http://gong.io', u'http://data.gov.ie', u'http://data.tainan.gov.tw'], 'nginx/1.4.4': [u'http://datosabiertos.ec'], 'nginx/1.4.1': [u'http://hubofdata.ru/']}
+8 Apache [u'http://www.odaa.dk/', u'http://datos.codeandomexico.org/', u'http://opendata.admin.ch/', u'http://dati.trentino.it/', u'http://www.odaa.dk/', u'http://www.offene-daten.me', u'http://ckan.gsi.go.jp', u'http://datamx.io']
+5 Apache/2.2.15 (CentOS) [u'http://dados.gov.br', u'https://catalogodatos.gub.uy/', u'http://dartportal.leeds.ac.uk/', u'http://dados.recife.pe.gov.br/', u'http://opendata.lisra.jp']
+2 Apache/2.2.15 (Red Hat) [u'http://data.rio.rj.gov.br/', u'http://gisdata.mn.gov']
+1 Apache/2.2.16 [u'http://www.nosdonnees.fr/']
+1 Apache/2.2.22 [u'http://opingogn.is/']
+2 Apache/2.2.22 (Debian) [u'http://datapoa.com.br/', u'http://data.bris.ac.uk/data']
+12 Apache/2.2.22 (Ubuntu) [u'http://www.hri.fi', u'http://opendata.aragon.es/', u'http://africaopendata.org/', u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://opendatadc.org/', u'http://opendata.cmt.es/', u'http://data.glasgow.gov.uk/', u'http://rotterdamopendata.nl/', u'http://portal.openbelgium.be', u'http://udct-data.aigid.jp', u'http://www.civicdata.io']
+1 Apache/2.2.22 (Ubuntu), cacheinter@CEMI [u'http://datosabiertos.malaga.eu/']
+1 Apache/2.4.7 (Ubuntu) [u'http://opendatareno.org']
+1 PasteWSGIServer/0.5 Python/2.6.6 [u'http://annuario.comune.fi.it']
+1 PasteWSGIServer/0.5 Python/2.7.3 [u'http://oppnadata.se']
+2 PasteWSGIServer/0.5 Python/2.7.5 [u'http://opendatagortynia.gr/', None]
+2 cloudflare-nginx [u'http://data.qld.gov.au', u'http://bermuda.io/']
+2 nginx [u'http://donnees.ville.montreal.qc.ca/', u'http://data.hdx.rwlabs.org']
+23 nginx/1.1.19 [u'http://data.sa.gov.au/', u'http://dati.toscana.it/', u'http://datagm.org.uk', u'http://publicdata.eu', u'http://iatiregistry.org', u'http://datahub.io/', u'http://offenedaten.de/', u'http://data.edostate.gov.ng/', u'http://data.kk.dk/', u'http://opendata.hu/', u'http://data.gov.ro/', u'http://data.surrey.ca/', u'http://opendata.caceres.es/', u'http://data.kk.dk/', u'http://opendata.caceres.es/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://data.grcity.us', u'http://data.salzburgerland.com', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar', u'http://gong.io', u'http://data.gov.ie', u'http://data.tainan.gov.tw']
+1 nginx/1.2.6 (Ubuntu) [u'http://cities.opendatahub.gr']
+1 nginx/1.4.1 [u'http://hubofdata.ru/']
+1 nginx/1.4.4 [u'http://datosabiertos.ec']
+1 nginx/1.4.6 (Ubuntu) [u'http://dataforjapan.org']
+1 nginx/1.6.0 [u'http://data.gov.uk']
+1 nginx/1.6.1 [u'http://data.gov.au']
+1 unknown [u'http://data.gov.sk']
+
+
+{u'noregistration': [u'http://opendata.admin.ch/', u'http://datosabiertos.malaga.eu/'], u'datastorer': [u'http://africaopendata.org/', u'http://opendatadc.org/', u'http://opendata.cmt.es/', u'http://dados.recife.pe.gov.br/'], u'synchronous_search': [u'http://donnees.ville.montreal.qc.ca/'], u'dgu_publisher_form': [u'http://data.gov.uk'], u'datajson': [u'http://data.openva.com/'], u'datastore': [u'http://data.gov.sk', u'http://data.codeforhouston.com/', u'http://bermuda.io/', u'http://data.gov.ro/', u'http://data.hdx.rwlabs.org'], u'pdf_preview': [u'http://hubofdata.ru/', u'http://opendata.caceres.es/', u'http://opendata.caceres.es/', u'http://datapoa.com.br/', u'http://opendatagortynia.gr/', None], u'hri_wordpress_auth': [u'http://www.hri.fi'], u'ckan_harvester': [u'http://dados.gov.br', u'http://africaopendata.org/', u'http://geothermaldata.org'], u'googleanalytics': [u'https://catalogodatos.gub.uy/', u'http://opingogn.is/', u'http://dati.toscana.it/', u'http://datagm.org.uk', u'http://datahub.io/', u'http://data.kk.dk/', u'http://data.glasgow.gov.uk/', u'http://dados.recife.pe.gov.br/', u'http://data.surrey.ca/', u'http://data.kk.dk/', u'http://data.rio.rj.gov.br/', u'http://oppnadata.se', u'http://data.salzburgerland.com', u'http://data.bris.ac.uk/data'], u'datitrentinoit_form': [u'http://dati.trentino.it/'], u'disqus': [u'http://data.gov.au'], u'stats': [u'http://dados.gov.br', u'http://data.gov.sk', u'https://catalogodatos.gub.uy/', u'http://opingogn.is/', u'http://data.qld.gov.au', u'http://data.sa.gov.au/', u'http://dati.toscana.it/', u'http://opendata.aragon.es/', u'http://datagm.org.uk', u'http://publicdata.eu', u'http://offenedaten.de/', u'http://www.nosdonnees.fr/', u'http://hubofdata.ru/', u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://datos.codeandomexico.org/', u'http://opendatadc.org/', u'http://data.edostate.gov.ng/', u'http://dartportal.leeds.ac.uk/', u'http://bermuda.io/', u'http://opendata.admin.ch/', u'http://data.kk.dk/', u'http://opendata.cmt.es/', u'http://opendata.hu/', u'http://dati.trentino.it/', u'http://data.gov.ro/', u'http://data.surrey.ca/', u'http://rotterdamopendata.nl/', u'http://opendata.caceres.es/', u'http://data.kk.dk/', u'http://opendata.caceres.es/', u'http://data.rio.rj.gov.br/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://datosabiertos.ec', u'http://www.offene-daten.me', u'http://udct-data.aigid.jp', u'http://data.grcity.us', u'http://cities.opendatahub.gr', u'http://www.civicdata.io', u'http://ckan.gsi.go.jp', u'http://datamx.io', u'http://dataforjapan.org', u'http://opendata.lisra.jp', u'http://gisdata.mn.gov', u'http://data.salzburgerland.com', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar', u'http://data.bris.ac.uk/data', u'http://gong.io', u'http://opendatareno.org', u'http://data.gov.ie', u'http://data.tainan.gov.tw'], u'facet_territoire': [u'http://donnees.ville.montreal.qc.ca/'], u'datagovie_theme': [u'http://data.gov.ie'], u'recline_preview': [u'http://opendata.aragon.es/', u'http://www.nosdonnees.fr/', u'http://opendatagortynia.gr/', None, u'http://datosabiertos.ec', u'http://annuario.comune.fi.it', u'http://www.datos.misiones.gov.ar'], u'csw_harvester': [u'http://udct-data.aigid.jp'], u'spatial_metadata': [u'http://www.odaa.dk/', u'http://data.glasgow.gov.uk/', u'http://www.odaa.dk/'], u'dataforjapan_theme': [u'http://dataforjapan.org'], u'open_ckan_harvester': [u'http://offenedaten.de/'], u'hdx_org_group': [u'http://data.hdx.rwlabs.org'], u'dadospoa_theme': [u'http://datapoa.com.br/'], u'basemaps_layer': [u'http://ckan.gsi.go.jp'], u'oaipmh': [u'http://dartportal.leeds.ac.uk/'], u'faq': [u'http://www.civicdata.io'], u'certificates': [u'http://data.gov.uk'], u'iati_publishers': [u'http://iatiregistry.org'], u'text_preview': [u'http://data.sa.gov.au/', u'http://datahub.io/'], u'example_theme': [u'http://opendatareno.org'], u'ckan_overheid': [u'http://publicdata.eu'], u'harvest': [u'http://portal.openbelgium.be'], u'pages': [u'http://gong.io', u'http://data.tainan.gov.tw'], u'tdt': [u'http://portal.openbelgium.be'], u'vds': [u'http://donnees.ville.sherbrooke.qc.ca'], u'geojson_preview': [u'http://datosabiertos.malaga.eu/', u'http://data.grcity.us'], u'trak': [u'http://data.qld.gov.au'], u'odmetheme': [u'http://www.offene-daten.me'], u'queue': [u'http://www.hri.fi'], u'iati_csv': [u'http://iatiregistry.org'], u'resource_proxy': [u'http://www.odaa.dk/', u'http://data.edostate.gov.ng/', u'http://opendata.hu/', u'http://rotterdamopendata.nl/', u'http://www.odaa.dk/', u'http://cities.opendatahub.gr', u'http://opendata.lisra.jp', u'http://annuario.comune.fi.it'], u'dcat_json_interface': [u'http://datos.codeandomexico.org/', u'http://datamx.io'], u'wms_preview': [u'http://gisdata.mn.gov'], u'opendata': [u'http://oppnadata.se'], u'sitemap': [u'http://data.gov.au']}
+1 basemaps_layer [u'http://ckan.gsi.go.jp']
+1 certificates [u'http://data.gov.uk']
+3 ckan_harvester [u'http://dados.gov.br', u'http://africaopendata.org/', u'http://geothermaldata.org']
+1 ckan_overheid [u'http://publicdata.eu']
+1 csw_harvester [u'http://udct-data.aigid.jp']
+1 dadospoa_theme [u'http://datapoa.com.br/']
+1 dataforjapan_theme [u'http://dataforjapan.org']
+1 datagovie_theme [u'http://data.gov.ie']
+1 datajson [u'http://data.openva.com/']
+5 datastore [u'http://data.gov.sk', u'http://data.codeforhouston.com/', u'http://bermuda.io/', u'http://data.gov.ro/', u'http://data.hdx.rwlabs.org']
+4 datastorer [u'http://africaopendata.org/', u'http://opendatadc.org/', u'http://opendata.cmt.es/', u'http://dados.recife.pe.gov.br/']
+1 datitrentinoit_form [u'http://dati.trentino.it/']
+2 dcat_json_interface [u'http://datos.codeandomexico.org/', u'http://datamx.io']
+1 dgu_publisher_form [u'http://data.gov.uk']
+1 disqus [u'http://data.gov.au']
+1 example_theme [u'http://opendatareno.org']
+1 facet_territoire [u'http://donnees.ville.montreal.qc.ca/']
+1 faq [u'http://www.civicdata.io']
+2 geojson_preview [u'http://datosabiertos.malaga.eu/', u'http://data.grcity.us']
+14 googleanalytics [u'https://catalogodatos.gub.uy/', u'http://opingogn.is/', u'http://dati.toscana.it/', u'http://datagm.org.uk', u'http://datahub.io/', u'http://data.kk.dk/', u'http://data.glasgow.gov.uk/', u'http://dados.recife.pe.gov.br/', u'http://data.surrey.ca/', u'http://data.kk.dk/', u'http://data.rio.rj.gov.br/', u'http://oppnadata.se', u'http://data.salzburgerland.com', u'http://data.bris.ac.uk/data']
+1 harvest [u'http://portal.openbelgium.be']
+1 hdx_org_group [u'http://data.hdx.rwlabs.org']
+1 hri_wordpress_auth [u'http://www.hri.fi']
+1 iati_csv [u'http://iatiregistry.org']
+1 iati_publishers [u'http://iatiregistry.org']
+2 noregistration [u'http://opendata.admin.ch/', u'http://datosabiertos.malaga.eu/']
+1 oaipmh [u'http://dartportal.leeds.ac.uk/']
+1 odmetheme [u'http://www.offene-daten.me']
+1 open_ckan_harvester [u'http://offenedaten.de/']
+1 opendata [u'http://oppnadata.se']
+2 pages [u'http://gong.io', u'http://data.tainan.gov.tw']
+6 pdf_preview [u'http://hubofdata.ru/', u'http://opendata.caceres.es/', u'http://opendata.caceres.es/', u'http://datapoa.com.br/', u'http://opendatagortynia.gr/', None]
+1 queue [u'http://www.hri.fi']
+7 recline_preview [u'http://opendata.aragon.es/', u'http://www.nosdonnees.fr/', u'http://opendatagortynia.gr/', None, u'http://datosabiertos.ec', u'http://annuario.comune.fi.it', u'http://www.datos.misiones.gov.ar']
+8 resource_proxy [u'http://www.odaa.dk/', u'http://data.edostate.gov.ng/', u'http://opendata.hu/', u'http://rotterdamopendata.nl/', u'http://www.odaa.dk/', u'http://cities.opendatahub.gr', u'http://opendata.lisra.jp', u'http://annuario.comune.fi.it']
+1 sitemap [u'http://data.gov.au']
+3 spatial_metadata [u'http://www.odaa.dk/', u'http://data.glasgow.gov.uk/', u'http://www.odaa.dk/']
+52 stats [u'http://dados.gov.br', u'http://data.gov.sk', u'https://catalogodatos.gub.uy/', u'http://opingogn.is/', u'http://data.qld.gov.au', u'http://data.sa.gov.au/', u'http://dati.toscana.it/', u'http://opendata.aragon.es/', u'http://datagm.org.uk', u'http://publicdata.eu', u'http://offenedaten.de/', u'http://www.nosdonnees.fr/', u'http://hubofdata.ru/', u'http://data.openva.com/', u'http://data.codeforhouston.com/', u'http://datos.codeandomexico.org/', u'http://opendatadc.org/', u'http://data.edostate.gov.ng/', u'http://dartportal.leeds.ac.uk/', u'http://bermuda.io/', u'http://opendata.admin.ch/', u'http://data.kk.dk/', u'http://opendata.cmt.es/', u'http://opendata.hu/', u'http://dati.trentino.it/', u'http://data.gov.ro/', u'http://data.surrey.ca/', u'http://rotterdamopendata.nl/', u'http://opendata.caceres.es/', u'http://data.kk.dk/', u'http://opendata.caceres.es/', u'http://data.rio.rj.gov.br/', u'http://donnees.ville.sherbrooke.qc.ca', u'http://datosabiertos.ec', u'http://www.offene-daten.me', u'http://udct-data.aigid.jp', u'http://data.grcity.us', u'http://cities.opendatahub.gr', u'http://www.civicdata.io', u'http://ckan.gsi.go.jp', u'http://datamx.io', u'http://dataforjapan.org', u'http://opendata.lisra.jp', u'http://gisdata.mn.gov', u'http://data.salzburgerland.com', u'http://geothermaldata.org', u'http://www.datos.misiones.gov.ar', u'http://data.bris.ac.uk/data', u'http://gong.io', u'http://opendatareno.org', u'http://data.gov.ie', u'http://data.tainan.gov.tw']
+1 synchronous_search [u'http://donnees.ville.montreal.qc.ca/']
+1 tdt [u'http://portal.openbelgium.be']
+2 text_preview [u'http://data.sa.gov.au/', u'http://datahub.io/']
+1 trak [u'http://data.qld.gov.au']
+1 vds [u'http://donnees.ville.sherbrooke.qc.ca']
+1 wms_preview [u'http://gisdata.mn.gov']
+
+
+
+
