@@ -1,0 +1,17 @@
+Harvest start: 04/14/17 13:41:37
+
+Sites not responding to request:
+http://data.gv.at , 404
+http://govdata.de , 404
+http://data.overheid.nl , 404
+http://data.gov.sk , 200
+http://data.gov , 404
+
+ CKAN Version Deployments 
+{"2.2b": ["http://data.gov.uk"], "2.4.0": ["https://catalogodatos.gub.uy/"], "2.5.2": ["http://dados.gov.br", "http://opingogn.is/"]}
+ 
+ CKAN Extension Deployments 
+{"inventory_harvester": ["http://data.gov.uk"], "webpage_view": ["http://opingogn.is/"], "image_view": ["http://dados.gov.br", "https://catalogodatos.gub.uy/"], "dcat_json_harvester": ["http://data.gov.uk"], "text_view": ["http://dados.gov.br", "https://catalogodatos.gub.uy/", "http://opingogn.is/"], "os_search": ["http://data.gov.uk"], "gemini_csw_harvester": ["http://data.gov.uk"], "packagezip": ["http://data.gov.uk"], "report": ["http://data.gov.uk"], "dgu_theme": ["http://data.gov.uk"], "dgu_publisher_form": ["http://data.gov.uk"], "dgu_api": ["http://data.gov.uk"], "datastore": ["http://dados.gov.br", "https://catalogodatos.gub.uy/"], "certificates": ["http://data.gov.uk"], "recline_grid_view": ["http://opingogn.is/"], "dgu_search": ["http://data.gov.uk"], "ckan_harvester": ["http://dados.gov.br", "http://data.gov.uk"], "googleanalytics": ["https://catalogodatos.gub.uy/", "http://opingogn.is/"], "dgu_dataset_form": ["http://data.gov.uk"], "recline_map_view": ["http://opingogn.is/"], "stats": ["http://dados.gov.br", "https://catalogodatos.gub.uy/", "http://opingogn.is/"], "ga-report": ["http://data.gov.uk"], "dgu_report": ["http://data.gov.uk"], "gemini_doc_harvester": ["http://data.gov.uk"], "dcat_rdf_harvester": ["http://data.gov.uk", "https://catalogodatos.gub.uy/"], "dgu_inventory": ["http://data.gov.uk"], "resource_proxy": ["http://opingogn.is/"], "archiver": ["http://data.gov.uk"], "issues": ["http://data.gov.uk"], "taxonomy": ["http://data.gov.uk"], "synchronous_search": ["http://data.gov.uk"], "os_preview": ["http://data.gov.uk"], "dgu_publisher_files": ["http://data.gov.uk"], "datapusher": ["http://dados.gov.br", "https://catalogodatos.gub.uy/"], "recline_view": ["http://dados.gov.br", "https://catalogodatos.gub.uy/", "http://opingogn.is/"], "iceland": ["http://opingogn.is/"], "dkan_harvester": ["http://data.gov.uk"], "spatial_metadata": ["http://data.gov.uk"], "spatial_query": ["http://data.gov.uk"], "dgu_auth_api": ["http://data.gov.uk"], "dadosabertos": ["http://dados.gov.br"], "disqus": ["https://catalogodatos.gub.uy/"], "harvest": ["http://dados.gov.br", "http://data.gov.uk", "https://catalogodatos.gub.uy/"], "pages": ["http://opingogn.is/"], "dgu_publishers": ["http://data.gov.uk"], "recline_graph_view": ["http://opingogn.is/"], "cswserver": ["http://data.gov.uk"], "dcat": ["https://catalogodatos.gub.uy/"], "gemini_waf_harvester": ["http://data.gov.uk"], "hierarchy_display": ["http://data.gov.uk"], "qa": ["http://data.gov.uk"], "dgu_schema": ["http://data.gov.uk"], "spatial_harvest_metadata_api": ["http://data.gov.uk"], "agesic": ["https://catalogodatos.gub.uy/"], "dgu_form": ["http://data.gov.uk"], "dgu_drupal_auth": ["http://data.gov.uk"], "dgu_spatial": ["http://data.gov.uk"], "datapreview": ["http://data.gov.uk"]}
+ 
+ Web Server Information 
+{"nginx": ["http://data.gov.uk"], "PasteWSGIServer/0.5 Python/2.7.12": ["http://dados.gov.br"], "Apache/2.4.7": ["http://opingogn.is/"], "nginx/1.1.19": ["https://catalogodatos.gub.uy/"]}
