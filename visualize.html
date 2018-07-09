@@ -6,28 +6,100 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
     <title>CKAN Site Survey</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.css">
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>
+
 </head>
 
 <body>
-    <h1>CKAN Survey Results</h1>
-    <H2>Surveyed 2018-July-08</H2>
+    <div class="container">
+        <h1>CKAN Survey Results</h1>
+        <H3>Surveyed with
+            <a href='https://github.com/gjlawran/CKAN_Ecosystem'>https://github.com/gjlawran/CKAN_Ecosystem </a> on 2018-July-08</H3>
+
+        <ul class="nav nav-pills">
+            <li class="active">
+                <a data-toggle="pill" href="#home">Versions</a>
+            </li>
+            <li>
+                <a data-toggle="pill" href="#menu1">Extensions</a>
+            </li>
+            <li>
+                <a data-toggle="pill" href="#menu2">System</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <H2>CKAN Versions</H2>
+                <div class="container">
+                    <div class="table-responsive">
+                        <table data-toggle="table" class="table" id="table" data-url="./results/20180708/VerName.json" data-sort-name="num">
+                            <thead>
+                                <tr>
+                                    <th data-field="VerName" data-sortable="true">Name</th>
+                                    <th data-field="num" data-sortable="true">Number</th>
+                                    <th data-field="sites">Sites Implementing</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu1" class="tab-pane fade">
+                    <div class="container">
+                        <header>
+                             <H2>CKAN Extensions</H2>
+                        </header>
+                    <div class="table-responsive">
+                        <table data-toggle="table" class="table" id="table" data-url="./results/20180708/ExtName.json" data-sort-name="num">
+                            <thead>
+                                <tr>
+                                    <th data-field="ExtName" data-sortable="true">Name</th>
+                                    <th data-field="num" data-sortable="true">Number</th>
+                                    <th data-field="sites">Sites Implementing</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu2" class="tab-pane fade">
+                <div class="container">
+                    <header>
+                        <h2>Systems Used</h2>
+                    </header>
+                    <div class="table-responsive">
+                            <table data-toggle="table" class="table" id="table" data-url="./results/20180708/SiteInfo.json" data-sort-name="num">
+                            <thead>
+                                <tr>
+                                        <th data-field="SiteInfo" data-sortable="true">Name</th>
+                                        <th data-field="num" data-sortable="true">Number</th>
+                                        <th data-field="sites">Sites Implementing</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
     <h3>Todo:</h3>
     <UL>
         <li>include the surveyed date</li>
@@ -35,43 +107,6 @@
         <li>selectable date</li>
         <li>hyperlinks</li>
     </ul>
-
-    <H2>Versions</H2>
-    <div class="table-responsive">
-        <table data-toggle="table" class="table" id="table" data-url="./results/20180708/VerName.json" data-sort-name="num">
-            <thead>
-                <tr>
-                    <th data-field="VerName" data-sortable="true">Name</th>
-                    <th data-field="num" data-sortable="true">Number</th>
-                    <th data-field="sites">Sites Implementing</th>
-
-                </tr>
-            </thead>
-        </table>
-    </div>
-
-
-    <H2>Extensions</H2>
-    <div class="table-responsive">
-         <table data-toggle="table" class="table" id="table" data-url="./results/20180708/ExtName.json" data-sort-name="num">
-           
-
-            <thead>
-                <tr>
-                    <th data-field="ExtName" data-sortable="true">Name</th>
-                    <th data-field="num" data-sortable="true">Number</th>
-                    <th data-field="sites">Sites Implementing</th>
-
-                </tr>
-            </thead>
-        </table>
-    </div>
-
-
-<div>
-    <H4>Surveyed by: </H4>
-    <a href='https://github.com/gjlawran/CKAN_Ecosystem'>https://github.com/gjlawran/CKAN_Ecosystem </a>
-</div>
 
 </body>
 
